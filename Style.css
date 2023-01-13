@@ -1,0 +1,51 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("Background.png");
+    background-size: 95%;
+}*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header,footer{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+header{
+    height: 10vh; 
+    color: white;
+}
+header h2{
+    position: absolute;
+    color: white;
+}
+footer{
+    height: 15vh;
+    bottom: 0;
+}
+footer h2{
+    position: absolute;
+    left: 45%;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    position: relative;
+    left: 45%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer p{
+    position: absolute;
+    left: 48%;
+    bottom: 20x;
+    color: orange;
+}
