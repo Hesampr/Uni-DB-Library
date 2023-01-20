@@ -12,6 +12,8 @@
         $data = $stmt_result->fetch_assoc() ;  
         if($data['Password']==$pass){
             echo "You successfully loged in"."<br>"."Hi dear ".$username; 
+            header("Location: Controlpanel.php");
+            exit();
 
         }else{
             echo "Invalid Username or Password, Please enter correct Username or Password"."<br>"."<br>" ; 

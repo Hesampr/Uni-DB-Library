@@ -19,7 +19,7 @@
       </div>
       <div class="container" style="background-color:#f1f1f1">
         
-        <span class="pass"><a href="Signup.html"> Haven't an account? </a></span>
+        <span class="pass"><a href="Signup.php"> Haven't an account? </a></span>
       </div>
 
 
